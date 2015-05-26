@@ -1,0 +1,38 @@
+<!-- dependencies, eg -->
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+
+Element template for uqlibrary
+
+##### Example
+
+<uqlibrary-element-template></uqlibrary-element-template>
+
+@element uqlibrary-element-template
+@blurb Reusable chat button
+@status alpha
+@homepage https://github.com/uqlibrary/uqlibrary-element-template
+-->
+
+<polymer-element name="uqlibrary-element-template">
+  <template>
+    <!-- standard and custom styles -->
+    <link rel="stylesheet" href="../uqlibrary-elements/resources/theme/component.css">
+    <link rel="stylesheet" href="uqlibrary-element-template.css">
+
+    <section id="uqlibraryElementTemplate">
+
+      <!-- element content -->
+      <h1>This is a template element</h1>
+
+    </section>
+  </template>
+  <script>
+    Polymer('uqlibrary-element-template', {
+      ready: function () {
+        var that = this;
+      }
+    });
+  </script>
+</polymer-element>
